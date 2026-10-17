@@ -160,7 +160,7 @@
       "number": 5,
       "type": "single",
       "question": {
-        "text": "figure) gives a falling curve: many users change their handle only once or a few times, and the\n\n\n\nnumber of users drops as the number of changes grows. The paper concludes that frequent changers\nform the smaller group, and that this group is still sizeable rather than negligible, which is why it is\ndescribed as 'slightly smaller'.\nOption (a) reverses this. Option (c) is not supported, since users who never change their handle form by\nfar the largest group on Twitter.\nAnswer: The set of people who change their handle many times is slightly smaller than the set of people\nwho change their handle a very small number of times.\nQuestion 5\nFrom the following figure, what is the correct inference?",
+        "text": "From the following figure, what is the correct inference?",
         "images": [
           "assets/figures/week10/q005-fig1.png"
         ]
@@ -191,7 +191,7 @@
         "B"
       ],
       "source": {
-        "page": 2
+        "page": 3
       }
     },
     {

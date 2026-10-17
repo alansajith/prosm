@@ -1110,8 +1110,8 @@ def parse_weeks_6_to_11(w):
     questions = []
     # Extract each of the 10 questions
     for q_num in range(1, 11):
-        # find Question q_num
-        pattern = rf"(?:^|\n)\s*Question\s*{q_num}\b([\s\S]*?)(?=(?:\n\s*Question\s*{q_num+1}\b|\n\s*Answer\s*Key\b|\Z))"
+        # find Question q_num (must match header line, not body references)
+        pattern = rf"(?:^|\n)\s*Question\s*{q_num}\s*\n([\s\S]*?)(?=(?:\n\s*Question\s*{q_num+1}\s*\n|\n\s*Answer\s*Key\b|\Z))"
         m = re.search(pattern, full_text)
         if not m:
             raise ValueError(f"Could not find Question {q_num} in Week {w}")
@@ -1158,7 +1158,7 @@ def parse_weeks_6_to_11(w):
         # Source page
         src_page = 1
         for pno, pt in enumerate(pages_text):
-            if f"Question {q_num}" in pt:
+            if re.search(rf"(?:^|\n)\s*Question\s*{q_num}\s*\n", pt):
                 src_page = pno + 1
                 break
 

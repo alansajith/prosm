@@ -90,6 +90,7 @@ This document records the extraction process, per-week question counts, answer-k
 - **Figures Extracted:** 4 figures (`assets/figures/week10/q003-fig1.png` for Q3 UGI quality, `assets/figures/week10/q005-fig1.png` for Q5 username dynamics CDF, `assets/figures/week10/q008-fig1.png` for Q8 Boston blast fake tweets, `assets/figures/week10/q010-fig1.png` for Q10 temporal distribution plot).
 - **Notes / Observations:**
   - Multi-answer questions: Q1 (`["A", "B", "C"]`), Q3 (`["A", "D"]`), Q9 (`["A", "B", "C"]`).
+  - Strict header boundary matching ensures body text references (e.g. "Question 5 figure" in Q4 solution) do not prematurely split questions.
 
 ### Week 11 (`assets/11.pdf`)
 - **Question Count:** 10 questions.
@@ -97,6 +98,8 @@ This document records the extraction process, per-week question counts, answer-k
 - **Figures Extracted:** 0 figures (all questions and options are pure text).
 - **Notes / Observations:**
   - Multi-answer questions: Q2 (`["A", "D"]`), Q3 (`["A", "B", "C", "D"]`), Q4 (`["A", "C"]`), Q5 (`["B", "D"]`).
+  - Single-answer questions: Q1 (`["A"]`), Q6 (`["B"]`), Q7 (`["C"]`), Q8 (`["C"]`), Q9 (`["C"]`), Q10 (`["B"]`).
+  - Q10 question text and options fixed: previously, a body-text mention of "Question 10" in Q3's solution on page 2 caused an extraction collision. Strict newline-delimited header matching now cleanly isolates Q10 ("Which V of social media represents...").
 
 ---
 

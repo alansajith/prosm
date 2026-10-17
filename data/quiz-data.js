@@ -3567,7 +3567,7 @@ window.QUIZ_DATA = {
       "number": 5,
       "type": "single",
       "question": {
-        "text": "figure) gives a falling curve: many users change their handle only once or a few times, and the\n\n\n\nnumber of users drops as the number of changes grows. The paper concludes that frequent changers\nform the smaller group, and that this group is still sizeable rather than negligible, which is why it is\ndescribed as 'slightly smaller'.\nOption (a) reverses this. Option (c) is not supported, since users who never change their handle form by\nfar the largest group on Twitter.\nAnswer: The set of people who change their handle many times is slightly smaller than the set of people\nwho change their handle a very small number of times.\nQuestion 5\nFrom the following figure, what is the correct inference?",
+        "text": "From the following figure, what is the correct inference?",
         "images": [
           "assets/figures/week10/q005-fig1.png"
         ]
@@ -3598,7 +3598,7 @@ window.QUIZ_DATA = {
         "B"
       ],
       "source": {
-        "page": 2
+        "page": 3
       }
     },
     {
@@ -4131,30 +4131,30 @@ window.QUIZ_DATA = {
     {
       "id": "w11-q010",
       "number": 10,
-      "type": "multi",
+      "type": "single",
       "question": {
-        "text": ").\n•\nBloggers, experts and marketers who gain from a larger audience.\nBecause their follow-back habit lends reach to spammers, these users unknowingly help link farming.\nAnswer: All four: highly active users, legitimate users, popular users, bloggers and experts.\nQuestion 4\nWhich of the following is username creation behaviour? (multiple correct)",
+        "text": "Which V of social media represents \"Viral trends that spread rapidly across social media platforms\"?",
         "images": []
       },
       "options": [
         {
           "id": "A",
-          "text": "Static behavior patterns",
+          "text": "Value",
           "image": null
         },
         {
           "id": "B",
-          "text": "Occasional reuse patterns",
+          "text": "Velocity",
           "image": null
         },
         {
           "id": "C",
-          "text": "Temporal behavior patterns",
+          "text": "Volume",
           "image": null
         },
         {
           "id": "D",
-          "text": "Frequent reuse patterns",
+          "text": "Veracity",
           "image": null
         }
       ],
@@ -4162,7 +4162,7 @@ window.QUIZ_DATA = {
         "B"
       ],
       "source": {
-        "page": 2
+        "page": 4
       }
     }
   ]

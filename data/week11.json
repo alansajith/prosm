@@ -339,30 +339,30 @@
     {
       "id": "w11-q010",
       "number": 10,
-      "type": "multi",
+      "type": "single",
       "question": {
-        "text": ").\n•\nBloggers, experts and marketers who gain from a larger audience.\nBecause their follow-back habit lends reach to spammers, these users unknowingly help link farming.\nAnswer: All four: highly active users, legitimate users, popular users, bloggers and experts.\nQuestion 4\nWhich of the following is username creation behaviour? (multiple correct)",
+        "text": "Which V of social media represents \"Viral trends that spread rapidly across social media platforms\"?",
         "images": []
       },
       "options": [
         {
           "id": "A",
-          "text": "Static behavior patterns",
+          "text": "Value",
           "image": null
         },
         {
           "id": "B",
-          "text": "Occasional reuse patterns",
+          "text": "Velocity",
           "image": null
         },
         {
           "id": "C",
-          "text": "Temporal behavior patterns",
+          "text": "Volume",
           "image": null
         },
         {
           "id": "D",
-          "text": "Frequent reuse patterns",
+          "text": "Veracity",
           "image": null
         }
       ],
@@ -370,7 +370,7 @@
         "B"
       ],
       "source": {
-        "page": 2
+        "page": 4
       }
     }
   ]
