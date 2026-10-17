@@ -308,11 +308,14 @@ const Quiz = {
 
   handleMultiWrong(selected) {
     const qState = this.session.questionState;
+    qState.isSolved = true;
     const isFirstAttempt = qState.attemptNumber === 1;
+    const q = this.getCurrentQuestion();
+    const correctAnswers = q.answer || [];
+    const correctSet = new Set(correctAnswers);
 
     if (isFirstAttempt) {
       this.session.currentStreak = 0;
-      const q = this.getCurrentQuestion();
 
       // Record wrong question id in storage for review mode
       const state = window.Storage.loadState();
@@ -337,16 +340,46 @@ const Quiz = {
 
     this.announce('Wrong');
 
-    // Shake the selected option buttons without revealing correct answers
-    selected.forEach((id) => {
+    // Immediately give/reveal the correct options in accent color with checkmark
+    correctAnswers.forEach((id) => {
       const btn = document.querySelector(`.option-btn[data-id="${id}"]`);
       if (btn) {
-        btn.classList.add('shake');
-        setTimeout(() => {
-          btn.classList.remove('shake');
-        }, 400);
+        btn.classList.add('correct');
+        const icon = btn.querySelector('.option-status-icon');
+        if (icon) icon.textContent = '✓';
       }
     });
+
+    // Mark any incorrectly selected options as wrong with strike and shake
+    selected.forEach((id) => {
+      if (!correctSet.has(id)) {
+        const btn = document.querySelector(`.option-btn[data-id="${id}"]`);
+        if (btn) {
+          btn.classList.add('wrong');
+          btn.classList.add('shake');
+          const icon = btn.querySelector('.option-status-icon');
+          if (icon) icon.textContent = '✕';
+          setTimeout(() => {
+            btn.classList.remove('shake');
+          }, 400);
+        }
+      }
+    });
+
+    // Disable all options
+    document.querySelectorAll('.option-btn').forEach((b) => {
+      b.disabled = true;
+    });
+
+    // Hide Check button and show Next Question button
+    const checkBtn = document.getElementById('quiz-check-btn');
+    if (checkBtn) checkBtn.style.display = 'none';
+
+    const nextBtn = document.getElementById('quiz-next-btn');
+    if (nextBtn) {
+      nextBtn.style.display = 'inline-block';
+      nextBtn.focus();
+    }
 
     this.updateHeaderUi();
   },
