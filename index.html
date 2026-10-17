@@ -247,5 +247,22 @@
   <script src="js/game.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/app.js"></script>
+
+  <!-- Vercel Analytics & Speed Insights (active when hosted on web) -->
+  <script>
+    if (window.location.protocol.startsWith('http')) {
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      var vaScript = document.createElement('script');
+      vaScript.defer = true;
+      vaScript.src = '/_vercel/insights/script.js';
+      document.head.appendChild(vaScript);
+
+      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+      var siScript = document.createElement('script');
+      siScript.defer = true;
+      siScript.src = '/_vercel/speed-insights/script.js';
+      document.head.appendChild(siScript);
+    }
+  </script>
 </body>
 </html>
