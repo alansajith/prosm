@@ -1,0 +1,385 @@
+{
+  "week": 8,
+  "source_pdf": "assets/8.pdf",
+  "questions": [
+    {
+      "id": "w08-q001",
+      "number": 1,
+      "type": "multi",
+      "question": {
+        "text": "What are the different approaches to profile linking? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Study and analyse common attributes (place of work, profile picture, name, etc.) across different social media platforms",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Check important attributes such as the same emails, locations, and contact numbers (if available) used across multiple platforms",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Only looking at the user posting behaviour on social media platforms will help in profile linking.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "It is not possible to find the same user profiles on different social media platforms.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w08-q002",
+      "number": 2,
+      "type": "single",
+      "question": {
+        "text": "Which of the following statements is/are true regarding username change on social media?\nS1: Changes to any profile attribute other than username do not lead to unreachability to the user\nprofile.\nS2: The potential benign reasons for username change include space gain, suiting a trending event,\ngaining/losing anonymity, adjusting to real-life events, and avoiding boredom.\nS3: The malicious intentions for username change may include obscured username promotion and\nusername squatting.\nS4: Search by the user's old username results in a failed attempt to reach the user's profile, potentially\nmaking others falsely believe that the user account has been deactivated.",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Only S1 and S4 are correct",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Only S1, S2, and S3 are correct",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "S1, S2, and S4 are correct",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All S1, S2, S3, S4 are correct.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w08-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "Below is the graph of username change. Which of the following is the correct inference from the graph (as\ndiscussed in the lecture)?",
+        "images": [
+          "assets/figures/week08/q003-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Around 35 per cent of the users change their profile picture at least 3 times.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Around 60-70 percent of the users change their usernames at least once.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Around 35 percent of the users change their profile picture 3 times.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Around 50-55 per cent of users have changed their descriptions thrice.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w08-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "Why do Whisper users have a low clustering coefficient over the network?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Whisper users are likely to interact with complete strangers who are highly unlikely to interact with each other.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Users interact with a large sample of other users",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "New users make 20% of the contribution in the Whisper content.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w08-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "What is the primary purpose of Gephi software?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Video Editing",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "3D Modeling",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Network Visualization and Analysis",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Music Composition",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w08-q006",
+      "number": 6,
+      "type": "multi",
+      "question": {
+        "text": "Why is studying username change behaviour useful for social media researchers? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "This is one of the unique attributes of the user",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "It is usually homogeneous",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The number of characters and length of the username is restricted",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "It is the publicly available attribute",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w08-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "In the network graph of Twitter, where nodes are users, the in-degree of the node would be",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of followers on Twitter",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Number of people you follow",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Both a and b",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w08-q008",
+      "number": 8,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is/are anonymous social networks? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Secret",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "4chan",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Yik Yak",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Blind",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w08-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "A scale-free network can be one having",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Power law degree distribution",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Zipf's law",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Pareto principle",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w08-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "Imagine you're a student in a university, and you survey your classmates to find the number of friends\neach has on one popular social media platform (say Facebook).\nThe average number of friends reported is 300. However, when you examine each classmate's number\nindividually, many of them have fewer than 300 friends, perhaps ranging from 50 to 200. Why did you\nobserve such a phenomenon?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Most of the individuals have reported it wrong in the report.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Few individuals have exceptionally high friend counts (outliers) that skew the average upward.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "There is an error in individual calculations. It is impossible to have 300 friends on average if many individuals have fewer than 300 friends.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 5
+      }
+    }
+  ]
+}

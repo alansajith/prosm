@@ -1,0 +1,377 @@
+{
+  "week": 11,
+  "source_pdf": "assets/11.pdf",
+  "questions": [
+    {
+      "id": "w11-q001",
+      "number": 1,
+      "type": "single",
+      "question": {
+        "text": "Given below is the statement: \"An API is a set of rules and protocols that allows different software\napplications to communicate with each other, while a programming language is a formal language used\nto write instructions for a computer to perform specific tasks.\"",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "True",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "False",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Can't say",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w11-q002",
+      "number": 2,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following features is supposed to be a part of tweet content on Twitter? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Presence of pronouns",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "No. of followers",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "No. of retweets",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Mention of self words (I, my, mine)",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w11-q003",
+      "number": 3,
+      "type": "multi",
+      "question": {
+        "text": "Who among the following are most likely to engage in link farming? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Highly active users",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Legitimate users",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Popular users",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Bloggers and experts",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w11-q004",
+      "number": 4,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is username creation behaviour? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Static behavior patterns",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Occasional reuse patterns",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Temporal behavior patterns",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Frequent reuse patterns",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w11-q005",
+      "number": 5,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is a username reuse behaviour? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Static behavior patterns",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Occasional reuse patterns",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Temporal behavior patterns",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Frequent reuse patterns",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w11-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "Why is it called a \"Graph\" API?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows users to draw and create graphs and charts.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "It represents social connections and relationships as a graph data structure.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "It primarily deals with geographical mapping and location-based services.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "It is used exclusively for graph theory and mathematical computations.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w11-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "Latanya Sweeney's research highlighted how two seemingly unrelated pieces of information can be linked\nto reidentify an individual. Which term best describes this concept?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Data Anonymization",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Data Aggregation",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Reidentification",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w11-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "What is the primary purpose of an API key on Twitter?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "To limit the number of characters in a tweet.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "To verify a user's identity on the platform.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "To authenticate and access Twitter's APIs for development purposes.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "To encrypt and secure direct messages on Twitter.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w11-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "What is the primary purpose of link farming in the context of SEO (Search Engine Optimization)?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "To create high-quality, relevant backlinks to improve a website's search engine ranking.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "To increase organic traffic by optimising on-page content and meta tags.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "To manipulate search engine algorithms by generating a large number of low-quality backlinks.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "To enhance the user experience by improving website navigation and design.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w11-q010",
+      "number": 10,
+      "type": "multi",
+      "question": {
+        "text": ").\n•\nBloggers, experts and marketers who gain from a larger audience.\nBecause their follow-back habit lends reach to spammers, these users unknowingly help link farming.\nAnswer: All four: highly active users, legitimate users, popular users, bloggers and experts.\nQuestion 4\nWhich of the following is username creation behaviour? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Static behavior patterns",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Occasional reuse patterns",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Temporal behavior patterns",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Frequent reuse patterns",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 2
+      }
+    }
+  ]
+}

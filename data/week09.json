@@ -1,0 +1,392 @@
+{
+  "week": 9,
+  "source_pdf": "assets/9.pdf",
+  "questions": [
+    {
+      "id": "w09-q001",
+      "number": 1,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is/are location-based services? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Foursquare",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Yelp",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Gowalla",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Uber",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w09-q002",
+      "number": 2,
+      "type": "single",
+      "question": {
+        "text": "What is the difference between Pearson and Spearman rank correlation?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Pearson correlation assesses linear relationships, while Spearman correlation evaluates monotonic relationships.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Spearman correlation is always between -1 and 1, while Pearson correlation can have values outside this range.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Spearman correlation is calculated using a formula involving the sum of squared differences, whereas Pearson correlation is based on the product of z-scores.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w09-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "You have two datasets and want to measure the strength and direction of the relationship between them.\nOne set consists of the ranks or ordinal values of the observations, while the other set consists of\ncontinuous numerical data. Which correlation coefficient is most appropriate?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Spearman's rank correlation coefficient",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Pearson's correlation coefficient",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Either Spearman or Pearson correlation can be used interchangeably.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above because correlation coefficients are not applicable in this scenario.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w09-q004",
+      "number": 4,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following are open text fields, whose validity is not enforced by the system and may carry\nnoise/invalid locations? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Venue location",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Tips",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "User home city",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Dones",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w09-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "Which of the following is the correct inference from Figure 2?",
+        "images": [
+          "assets/figures/week09/q005-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The distributions are very skewed, with a few cities having as many as 100 mayorships, tips or dones.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The distributions are evenly balanced, with cities having a nearly equal number of mayorships, tips, or dones.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The distributions are normally distributed, with no cities having an exceptionally high number of mayorships, tips, or dones.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w09-q006",
+      "number": 6,
+      "type": "multi",
+      "question": {
+        "text": "What is the key difference between a scatter plot and a bar chart?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Scatter plots display categorical data, while bar charts are used for numerical data.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Scatter plots show the relationship between two numerical variables, while bar charts display the frequency or distribution of categorical data.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Scatter plots are only used for displaying data with a single variable, while bar charts can visualize data with multiple variables.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w09-q007",
+      "number": 7,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is publicly available data on Foursquare? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Mayorships",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Tips",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Dones",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Check-ins",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w09-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "Which plot is shown in the below figure?",
+        "images": [
+          "assets/figures/week09/q008-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Scatter plot",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Bar chart",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Bubble plot",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Histogram",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w09-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "What is the primary characteristic of Location-Based Social Networks (LBSNs)?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "They allow users to share text-based posts with their friends and followers.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "They provide a platform for online gaming and virtual reality experiences.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "They enable users to connect with others and share their physical locations and activities.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "They focus exclusively on professional networking and job searching.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w09-q010",
+      "number": 10,
+      "type": "multi",
+      "question": {
+        "text": "As discussed in the lecture, choose the correct inference(s) for the figures below (Figure 4 and Figure 5).\nHere mayorships (blue), Tips (red) and Dones (green). (multiple correct)",
+        "images": [
+          "assets/figures/week09/q010-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "In Figure 4, the distribution of minimum inter-activity times is very skewed towards short periods of time, with almost 50% of the users posting consecutive tips/dones 1 hour apart.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "In Figure 4, on average, median and maximum, users do tend to experience very long periods of time between consecutive tips and dones. For instance, around 50% of the users have an average inter-activity time of at least 450 hours, whereas around 80% of the users have a maximum inter- activity time above 167 hours (roughly a week).",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "In Figure 5, around 36% of the users have average and maximum displacements of 0 kilometer, indicating very short distances (within a few metres).",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "In Figure 5, about 10% of the users have a maximum displacement of at least 6,000 kilometers.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 6
+      }
+    }
+  ]
+}

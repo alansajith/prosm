@@ -1,0 +1,389 @@
+{
+  "week": 10,
+  "source_pdf": "assets/10.pdf",
+  "questions": [
+    {
+      "id": "w10-q001",
+      "number": 1,
+      "type": "multi",
+      "question": {
+        "text": "Which statement(s) is/are true? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The authors perform a large-scale inference study in three popular social networks: Foursquare, Google+ and Twitter.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The paper is looking at different social networks, not only Foursquare.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The dataset used in the paper comprises many attributes including venues, where the location must be defined filling the open text fields (limited to 30 and 127 characters, respectively), and setting a pin in the map.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w10-q002",
+      "number": 2,
+      "type": "single",
+      "question": {
+        "text": "What is a valid AGI?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Valid Artificial General Intelligence",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Valid Ambiguous Geographical Information",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Valid Artificial Geographical Interface",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w10-q003",
+      "number": 3,
+      "type": "multi",
+      "question": {
+        "text": "Given the following figure depicts the quality of valid UGI, what is the correct inference(s) from the\nfigure? (multiple correct)",
+        "images": [
+          "assets/figures/week10/q003-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "In figure (a), the vast majority (80%) of Foursquare users and venues have location information at the city level.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "In figure (b), the majority of users provide home location information at country level.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "In figure (c), 60% of the users have provided their location information at the district level.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "In figure (b), 80% of the users have provided location information at city level.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w10-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "From the overall conclusion of the paper, which of the statements is true?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The set of people who change their handle many times is slightly larger than those who change their handle a very small number of times.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The set of people who change their handle many times is slightly smaller than the set of people who change their handle a very small number of times.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The set of people who change their handle many times is roughly equal to the set of people who do not change their handle.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w10-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "figure) gives a falling curve: many users change their handle only once or a few times, and the\n\n\n\nnumber of users drops as the number of changes grows. The paper concludes that frequent changers\nform the smaller group, and that this group is still sizeable rather than negligible, which is why it is\ndescribed as 'slightly smaller'.\nOption (a) reverses this. Option (c) is not supported, since users who never change their handle form by\nfar the largest group on Twitter.\nAnswer: The set of people who change their handle many times is slightly smaller than the set of people\nwho change their handle a very small number of times.\nQuestion 5\nFrom the following figure, what is the correct inference?",
+        "images": [
+          "assets/figures/week10/q005-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "20% of users rarely change user names in short intervals and 80% change user names frequently after longer intervals.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "80% of users rarely change user names in short intervals, and 20% change user names frequently after longer intervals.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "35% of users choose a user name unrelated to an old one, and 65% of users reuse an old user name.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "20% of users frequently change user names in short intervals, and 80% change user name rarely after longer intervals.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w10-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "What is the correct observation in the paper?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "This paper aims at finding how and why users change their usernames within a social network like Twitter.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Most users created new usernames unrelated to the old username when they changed usernames within a social network.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The authors believe that unrelated usernames over time could be credited to the absence of cognitive load to remember a past dumped username.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w10-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "Which of the following statements is true about the Boston blasts?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Twin blasts occurred during the Boston Marathon on April 15th, 2013 at 18:50 GMT",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Twin blasts occurred during the Boston Marathon on April 15th, 2009 at 18:50 GMT",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Four people were killed and 264 were injured in the incident",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w10-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "What can be depicted from the tweets shared below?",
+        "images": [
+          "assets/figures/week10/q008-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Both tweets contain fake content.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Figure (a) depicts a tweet from a fake charity profile.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Figure (b) depicts a rumour about a child being killed in the blasts.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w10-q009",
+      "number": 9,
+      "type": "multi",
+      "question": {
+        "text": "What are the major contributions of the paper? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The authors characterised the spread of fake content on Twitter using temporal, source and user attributes.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The authors used linear regression to predict how viral a rumour would be in the future based on its current user characteristics.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The authors analysed the activity and interaction graphs for the suspended user profiles created during the Boston blasts.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w10-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "What does the following figure depict?",
+        "images": [
+          "assets/figures/week10/q010-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The figure shows the temporal distribution of tweets after the Boston blast",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The figure shows the spatial distribution of tweets after the Boston blast",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Both of the above",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "week": 1,
+  "source_pdf": "assets/1.pdf",
+  "questions": [
+    {
+      "id": "w01-q001",
+      "number": 1,
+      "type": "single",
+      "question": {
+        "text": "Which sequence correctly hosts a local Git repository on GitHub?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "git push origin master → git remote -v → git remote add origin …",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "git remote add origin … → git remote -v → git push origin master",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "git remote -v → git clone → git push",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "git clone → git remote add → git status",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w01-q002",
+      "number": 2,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following statement(s) is/are true about anonymous social\nnetworks?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Anonymous social networks help in providing enhanced privacy and anonymity.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Anonymous social networks provide more freedom of expression.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Anonymous social networks reduce the fear of judgment or social consequences.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w01-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "Choose the correct option to create a virtual environment in Python",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "python3 -m venv",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "python3 venv -m",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "virtualpython3 -m venv",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "virtualenv python3 -m venv myenv",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w01-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "Why is it important to create a virtual environment in Python?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Creating a virtual environment isolates project dependencies and prevents conflicts between different projects.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Creating a virtual environment enhances the performance of Python programs.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Creating a virtual environment to ensure compatibility with different operating systems.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Creating a virtual environment optimises memory usage in Python applications.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w01-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "Fill in the correct option to stage files/directories",
+        "images": [
+          "assets/figures/week01/q005-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Modified, Unmodified",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Unmodified, Modified",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Modified, Unstaged",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Modified, Tracked",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w01-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "Which command lists all the remote addresses associated with a local repository?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "git remote -v",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "git pull origin master",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "git stash",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "git checkout",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w01-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "Which of the following concept is closely related to the fact that\ninfrequent, arms-length relationships are more beneficial for employment\nopportunities, promotions, and wages than strong ties?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Six degrees of separation",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Small world phenomenon",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Strength of weak ties",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w01-q008",
+      "number": 8,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is/are shortcomings of online social media platforms?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Spread of misinformation",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Cyberbullying and harassment",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Addiction and time consumption",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Limited control over privacy",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w01-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "When a piece of content, such as a video, meme, or news article, gains\nattention on social media platforms, it can quickly reach a large audience\nwithin a short period. Which V of social media does it refers to?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Velocity",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Veracity",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Value",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Volume",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 6
+      }
+    },
+    {
+      "id": "w01-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "What is the primary purpose of the Gab platform?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "To promote free speech",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "To facilitate online shopping experience",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "It provides educational resources",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Support for professional networking",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 6
+      }
+    }
+  ]
+}

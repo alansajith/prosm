@@ -1,0 +1,383 @@
+{
+  "week": 6,
+  "source_pdf": "assets/6.pdf",
+  "questions": [
+    {
+      "id": "w06-q001",
+      "number": 1,
+      "type": "single",
+      "question": {
+        "text": "Consider the following scenario on a social network:\nA is friends with B and C.\nB is friends with A and D.\nC is friends with A and D.\nD is friends with B and C.\nCalculate the betweenness centrality for A, B, C and D. Identify the individual having the highest\nbetweenness centrality.",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "A",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "B",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "C",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of them have the same betweenness centrality",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w06-q002",
+      "number": 2,
+      "type": "single",
+      "question": {
+        "text": "What does indegree centrality measure in the social media and network analysis context?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The level of activity a user has on the platform.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The number of outgoing connections a user has with other users.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "A user's popularity based on their followers or incoming connections.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "The diversity of content shared by a user.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w06-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "What does betweenness centrality depict about the node?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "One who is quickly approachable",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Who is close to everyone",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "One who is most influential",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w06-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "What is link farming?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Agricultural practice that involves cultivating crops in a vertical arrangement.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Rapidly growing links on a website through unethical or manipulative means.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "A strategy for developing social connections by attending networking events.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w06-q005",
+      "number": 5,
+      "type": "multi",
+      "question": {
+        "text": "Spamming the index of search engines is called (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Spamdexing",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Spamexing",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Spamming",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w06-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "Which of the following is the best example of a clickbait headline?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Annual Financial Report 2026",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Meeting Agenda for Today",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "You Won't Believe What Happened Next! Click Here to Claim Your Prize!",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Python Programming Notes",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w06-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "Which of the following is considered as 'social etiquette' on online social media such as Twitter?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Following back",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Comment on the post of an influential person",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Giving likes to the post of an influential person",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Saying 'Thank you' to any appreciation by an influential person",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w06-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "A psychological principle where individuals feel compelled to return favours and interactions they receive\nis called",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Spamming",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Reciprocity",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Link farming",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w06-q009",
+      "number": 9,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following is/are graph centrality measures? (multiple correct)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Eigen centrality",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Node degree",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Betweenness centrality",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Closeness centrality",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w06-q010",
+      "number": 10,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following are spam targets? (multiple correct)",
+        "images": [
+          "assets/figures/week06/q010-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "A",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "B",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "C",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "S",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "page": 5
+      }
+    }
+  ]
+}

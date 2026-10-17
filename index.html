@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSOSM MCQ Practice</title>
+  <meta name="description" content="Gamified MCQ practice for Privacy and Security in Online Social Media (Weeks 1 to 11).">
+
+  <!-- Pre-paint Theme script to prevent theme flash -->
+  <script>
+    (function() {
+      try {
+        var raw = localStorage.getItem('mcqPractice.v1');
+        var theme = 'auto';
+        if (raw) {
+          var parsed = JSON.parse(raw);
+          theme = (parsed && parsed.settings && parsed.settings.theme) || 'auto';
+        }
+        if (theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else if (theme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Google Fonts: Rajdhani 300 and 400 strictly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Screen reader live announcement area -->
+  <div id="aria-live-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <div class="app-container">
+    <!-- SITE HEADER -->
+    <header class="site-header" role="banner">
+      <div class="header-brand">
+        <h1 class="site-title">PSOSM Practice</h1>
+        <span class="site-subtitle">Privacy &amp; Security in Online Social Media</span>
+      </div>
+      <button type="button" id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle color theme">
+        <span class="theme-icon">☼</span>
+        <span class="theme-label">Theme</span>
+      </button>
+    </header>
+
+    <main role="main">
+      <!-- ================================================================= -->
+      <!-- 1. HOME SCREEN -->
+      <!-- ================================================================= -->
+      <section id="home-screen" class="home-screen" aria-label="Home and Practice Dashboard">
+        <!-- Stats & Level Banner -->
+        <div class="stats-banner">
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-label">Player Level</span>
+              <span id="home-level-val" class="stat-value">Level 1</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Total XP</span>
+              <span id="home-xp-val" class="stat-value">0 XP</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Daily Streak</span>
+              <span id="home-daily-streak-val" class="stat-value">0d</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Best Streak</span>
+              <span id="home-best-streak-val" class="stat-value">0</span>
+            </div>
+          </div>
+          <div class="xp-bar-container">
+            <div class="xp-bar-track" aria-hidden="true">
+              <div id="home-xp-bar-fill" class="xp-bar-fill"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modes Bar (Mixed Practice & Missed Questions Review) -->
+        <div class="modes-bar">
+          <button type="button" id="start-mixed-btn" class="mode-btn">
+            <div class="mode-title">
+              <span>Mixed Practice</span>
+              <span class="mode-badge">110 Qs</span>
+            </div>
+            <span class="mode-sub">All questions across Weeks 1 to 11</span>
+          </button>
+          <button type="button" id="start-review-btn" class="mode-btn" disabled>
+            <div class="mode-title">
+              <span>Review Missed</span>
+              <span id="review-count-badge" class="mode-badge">0 missed</span>
+            </div>
+            <span class="mode-sub">Replay questions answered incorrectly</span>
+          </button>
+        </div>
+
+        <!-- Practice Settings (Shuffle & Challenge Mode) -->
+        <div class="settings-bar">
+          <div class="settings-group">
+            <label class="checkbox-label" for="setting-shuffle">
+              <input type="checkbox" id="setting-shuffle">
+              <span>Shuffle Questions</span>
+            </label>
+            <label class="checkbox-label" for="setting-challenge">
+              <input type="checkbox" id="setting-challenge">
+              <span>Challenge Mode (3 Lives)</span>
+            </label>
+          </div>
+          <button type="button" id="reset-progress-btn" class="btn btn-sm btn-text">Reset Progress</button>
+        </div>
+
+        <!-- Week Modules Grid (Weeks 1 to 11) -->
+        <h2 class="section-title">Weekly Practice Modules</h2>
+        <div id="week-grid" class="week-grid" role="list">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Badges Shelf -->
+        <h2 class="section-title">Achievements</h2>
+        <div id="badges-shelf" class="badges-shelf">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- 2. QUIZ SCREEN -->
+      <!-- ================================================================= -->
+      <section id="quiz-screen" class="quiz-screen hidden" aria-label="Question Practice Session">
+        <!-- Quiz Top bar -->
+        <div class="quiz-topbar">
+          <div class="quiz-top-left">
+            <button type="button" id="quiz-back-btn" class="btn btn-sm btn-secondary" aria-label="Leave practice and return to home">← Back</button>
+            <h2 id="quiz-title" class="quiz-module-title">Week 1 Practice</h2>
+          </div>
+          <div class="quiz-meta-info">
+            <div class="quiz-meta-item">
+              <span>Score:</span>
+              <strong id="quiz-score-val">0</strong>
+            </div>
+            <div class="quiz-meta-item">
+              <span>Streak:</span>
+              <strong id="quiz-streak-val">0</strong>
+            </div>
+            <div id="quiz-lives-container" class="quiz-meta-item quiz-lives" style="display: none;">
+              <span>Lives:</span>
+              <strong id="quiz-lives-val">♥♥♥</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="quiz-progress-bar-wrap">
+          <div class="quiz-progress-text" id="quiz-progress-text">Question 1 of 10</div>
+          <div class="quiz-progress-track" aria-hidden="true">
+            <div id="quiz-progress-fill" class="quiz-progress-fill"></div>
+          </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="quiz-card">
+          <span id="quiz-type-badge" class="quiz-type-badge">Single Choice</span>
+          <div id="quiz-question-text" class="quiz-question-text"></div>
+          <div id="quiz-question-images" class="quiz-figures"></div>
+
+          <!-- Options List (semantic fieldset/legend) -->
+          <fieldset id="quiz-options-container" class="options-list">
+            <legend class="sr-only">Answer options</legend>
+          </fieldset>
+
+          <!-- Actions (Check / Next) -->
+          <div id="quiz-actions" class="quiz-actions">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- 3. RESULTS SCREEN -->
+      <!-- ================================================================= -->
+      <section id="results-screen" class="results-screen hidden" aria-label="Practice Results">
+        <div class="results-card">
+          <h2 id="results-title" class="results-title">Practice Complete!</h2>
+          <div id="results-stars" class="results-stars">★★★</div>
+
+          <div class="results-grid">
+            <div class="result-stat-box">
+              <span id="results-score-val" class="result-stat-num">0 / 10</span>
+              <span class="result-stat-label">First Attempt Score</span>
+            </div>
+            <div class="result-stat-box">
+              <span id="results-accuracy-val" class="result-stat-num">0%</span>
+              <span class="result-stat-label">Accuracy</span>
+            </div>
+            <div class="result-stat-box">
+              <span id="results-xp-val" class="result-stat-num">+0 XP</span>
+              <span class="result-stat-label">XP Gained</span>
+            </div>
+            <div class="result-stat-box">
+              <span id="results-streak-val" class="result-stat-num">0</span>
+              <span class="result-stat-label">Best Streak</span>
+            </div>
+          </div>
+
+          <div id="results-new-badges"></div>
+
+          <div class="results-actions">
+            <button type="button" id="results-retry-btn" class="btn btn-secondary">Retry Module</button>
+            <button type="button" id="results-review-missed-btn" class="btn btn-secondary" style="display: none;">Review Missed Qs</button>
+            <button type="button" id="results-home-btn" class="btn btn-primary">Return Home</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Reset Confirmation Dialog Modal -->
+  <div id="reset-confirm-dialog" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="reset-dialog-title">
+    <div class="modal-dialog">
+      <h3 id="reset-dialog-title" class="modal-title">Reset All Progress?</h3>
+      <p class="modal-body">This will permanently clear all your saved XP, levels, streaks, stars, badges, and missed question history. Are you sure you want to proceed?</p>
+      <div class="modal-actions">
+        <button type="button" id="reset-cancel-btn" class="btn btn-secondary btn-sm">Cancel</button>
+        <button type="button" id="reset-confirm-btn" class="btn btn-primary btn-sm">Confirm Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal for Figures -->
+  <div id="lightbox-modal" class="lightbox-overlay hidden" role="dialog" aria-modal="true" aria-label="Enlarged figure view" tabindex="-1">
+    <button type="button" id="lightbox-close-btn" class="lightbox-close-btn" aria-label="Close enlarged figure">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Scripts: bundled offline data followed by modular scripts -->
+  <script src="data/quiz-data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

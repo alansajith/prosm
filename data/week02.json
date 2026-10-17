@@ -1,0 +1,377 @@
+{
+  "week": 2,
+  "source_pdf": "assets/2.docx.pdf",
+  "questions": [
+    {
+      "id": "w02-q001",
+      "number": 1,
+      "type": "single",
+      "question": {
+        "text": "What is the primary data format utilised by the Reddit API when returning information?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "JSON",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "XML",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "HTML",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "CSV",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w02-q002",
+      "number": 2,
+      "type": "single",
+      "question": {
+        "text": "JSON stands",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "JavaScript Object Notation",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "JavaScript Object Network",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "JavaScript Oriented Notation",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "JavaScript Oriented Namespace",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w02-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "Suppose you want to retrieve the top 5 hottest posts from the subreddit \"r/technology\" using the Reddit API. Which Python library would you most likely use to achieve this?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "PRAW",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Requests",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Urllib",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "JSON",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w02-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "You want to fetch the details of the 10 hot posts from the subreddit \"r/worldnews\" using the Reddit API in Python. Which is the correct code snippet from below options?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "import praw\nreddit = praw.Reddit(client_id='MY_CLIENT_ID', client_secret='MY_CLIENT_SECRET', user_agent='MY_USER_AGENT')\nposts = reddit.subreddit('worldnews').hot(limit=10)\nfor post in posts:\n    print(post.title)",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "import requests\nurl = \"https://www.reddit.com/r/worldnews/new.json?limit=10\"\nresponse = requests.get(url)\ndata = response.json()\nfor post in data['data']['children']:\n    print(post['data']['title'])",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "import praw\nreddit = praw.Reddit(client_id='MY_CLIENT_ID', client_secret='MY_CLIENT_SECRET', user_agent='MY_USER_AGENT')\nposts = reddit.subreddit('worldnews').new(limit=10)\nfor post in posts:\n    print(post.title)",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w02-q005",
+      "number": 5,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following tweet content falls in category of linguistic features?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of followers",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Presence of negative emotion words",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Presence of smiley",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Presence of pronouns",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w02-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "Why do we do network analysis on social media platforms?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "To analyze the performance of computer networks and improve data transmission speeds.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "To understand the social structures and relationships between individuals or entities in a network.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "To study the behavior of network protocols and optimize their efficiency.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "To identify and analyze patterns of diseases spreading within a population.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w02-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "Which of the following is a recent example of misinformation spread on social media platforms?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Tweet claiming that a particular brand of COVID-19 vaccine causes severe side effects, with no evidence to support the claim.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Facebook post sharing information from a well-known health organization about the effectiveness of vaccination.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Instagram story containing accurate information about a recent political development with credible sources cited.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "YouTube video providing a detailed explanation of climate change supported by scientific evidence.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w02-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "Given a MongoDB collection named \"employees\" with the following document structure:\n\n{\n  \"_id\": ObjectId(\"615243d88f0ae43f255874c1\"),\n  \"name\": \"Ram\",\n  \"department\": \"CSE\",\n  \"age\": 35,\n  \"salary\": 50000\n}\n\nWhat MongoDB query would you use to retrieve all employees with a salary greater than or equal to 60000?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "db.employees.find({ \"salary\": { $gte: 60000 } })",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "db.employees.find({ \"salary\": { $gt: 60000 } })",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "db.employees.find({ \"salary\": { $lte: 60000 } })",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "db.employees.find({ \"salary\": { $lt: 60000 } })",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w02-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "You are developing a social media platform, and you have a database table, \"posts\" to store user posts. The \"posts\" table schema is given below:\n\nCREATE TABLE posts (\n    post_id INT PRIMARY KEY,\n    user_id INT,\n    post_content TEXT,\n    post_date DATETIME\n);\n\nNow, you want to retrieve the 5 most recent posts made by a specific user with the user ID \"12345\". Which SQL query would you use?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "SELECT * FROM posts WHERE user_id = 12345 ORDER BY post_date DESC LIMIT 5;",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "SELECT * FROM posts WHERE user_id = 12345 ORDER BY post_id DESC LIMIT 5;",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "SELECT * FROM posts WHERE user_id = 12345 ORDER BY post_date ASC LIMIT 5;",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "SELECT * FROM posts WHERE user_id = 12345 ORDER BY post_id ASC LIMIT 5;",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w02-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "What is the Facebook Graph API as discussed in lecture?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "An API that provides access to a user's Facebook friends list.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "An API that allows developers to create and manage Facebook pages.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "An API that enables developers to integrate Facebook login into their applications for user authentication.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "An API that provides access to a wide range of user data, interactions, and connections on Facebook.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 3
+      }
+    }
+  ]
+}

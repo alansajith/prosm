@@ -1,0 +1,381 @@
+{
+  "week": 3,
+  "source_pdf": "assets/3.docx.pdf",
+  "questions": [
+    {
+      "id": "w03-q001",
+      "number": 1,
+      "type": "single",
+      "question": {
+        "text": "Consider the below response:\n“To this segment, consumer privacy is very important; they feel that they have been victims of privacy invasions, they are pessimistic about the future of privacy protection, and about a third of them favour creating a general federal regulatory agency on consumer privacy.”\n\nTo which of the three Westin Privacy categories is \"they\" in the above sentence most likely to fall?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Fundamentalists",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Pragmatists",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Unconcerned",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w03-q002",
+      "number": 2,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following features is used by the credibility model- TweetCred?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Tweet links",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Tweet Author",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Tweet network",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Tweet meta data",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w03-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "Cronbach’s alpha",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "determines the statistical significance of a research study.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "assess the reliability and internal consistency of a questionnaire.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "analyze the effect size of an intervention.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "calculate the standard deviation of a sample population.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w03-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "Suppose we have five tweets (TW1, TW2, TW3, TW4, and TW5) with their relevances based on user feedback or relevance labels:\nTW1: Highly relevant tweet (Relevance = 2)\nTW2: Moderately relevant tweet (Relevance = 1)\nTW3: Not relevant tweet (Relevance = 0)\nTW4: Relevant tweet (Relevance = 1)\nTW5: Highly relevant tweet (Relevance = 2)\n\nNow, let's assume the ranking algorithm generates a ranked list of tweets:\n\nRank 1: TW5 (Highly relevant tweet)\nRank 2: TW1 (Highly relevant tweet)\nRank 3: TW3 (Not relevant tweet)\nRank 4: TW2 (Moderately relevant tweet)\nRank 5: TW4 (Relevant tweet)\n\nWhat would be NDCG@5 for this ranked list of tweets?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "0.5",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": ".513",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": ".975",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w03-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "Read through the report “Privacy in India: Attitudes and Awareness V 2.0” at https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/research/privacyindia/PI_2012_Complete_Report.pdf\nAnd answer the following questions [5-7].\n\nHow many participants have changed their default settings on their social network?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "75%",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "60%",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "50%",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "25%",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w03-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "What is the primary purpose of a Focus Group Discussion (FGD) in the above report?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "To conduct one-on-one interviews with participants.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "To collect quantitative data through surveys and questionnaires.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "To observe participants' behaviours in a controlled environment.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "To facilitate group discussions and gather qualitative insights.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w03-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "“When you hear the word privacy, what comes to mind”. Which is the most common respondent answer according to the above report?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Information Privacy",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Bodily privacy",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Communication privacy",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Territorial privacy",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w03-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "Consider the below graph and choose the correct option:",
+        "images": [
+          "assets/figures/week03/q008-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "For 82% of the users, the response time was less than 2 seconds, and for 99%, the response time was under 10 seconds.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "For 99% of the users, the response time was less than 6 seconds, and for 100%, the response time was under 10 seconds.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "For 82% of the users, the response time was less than 6 seconds, and for 99%, the response time was under 10 seconds.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w03-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "What is the Likert scale?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "rating scale in surveys and questionnaires",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "gives the score for any real-time tweets",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Interannotator agreement",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w03-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "TweetCred is",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "a real-time web-based system to automatically evaluate the credibility of content on Twitter.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "a real-time app-based system to automatically evaluate the score of tweets on Twitter.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "a real-time app-based system to automatically assess the quality of content on Twitter.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 4
+      }
+    }
+  ]
+}

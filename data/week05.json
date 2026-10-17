@@ -1,0 +1,384 @@
+{
+  "week": 5,
+  "source_pdf": "assets/5.docx.pdf",
+  "questions": [
+    {
+      "id": "w05-q001",
+      "number": 1,
+      "type": "multi",
+      "question": {
+        "text": "How do Online Social Networks improve public Communication between police and residents?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "provide actionable information and collective action",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "provide mutual accountability",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "understand fear and victimisation effects",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "help to contact concerned authorities",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w05-q002",
+      "number": 2,
+      "type": "multi",
+      "question": {
+        "text": "Which of the following are examples of actionable information?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "OSN post regarding traffic issues on the road",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "OSN post regarding open potholes on the road",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "OSN post sharing about Azaadi ka Amrit Mahotsav celebrations in the locality",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w05-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "What type of actionable information is highlighted in (bold) the below example?",
+        "images": [
+          "assets/figures/week05/q003-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Temporal data",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Spatial data",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Linguistic data",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w05-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "Given below are two types of communication as discussed in the lecture.",
+        "images": [
+          "assets/figures/week05/q004-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Formal and Formal",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Informal and Formal",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Informal and Informal",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Formal and Informal",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w05-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "How would you identify emotional and psychological states based on the written text?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "LIWC",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "K-means clustering",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "N-gram analysis",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w05-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "Consider a sentence \"ISRO launched Chandrayaan and conducted experiments on thermophysical properties and environment\". What is the thematic content and subject matter being discussed?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The linguistic diversity of the sentence.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The emotional tone is conveyed in the sentence.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The grammatical structure of the sentence.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "The activities and research conducted by ISRO.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w05-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "What does an “n” represent in the n-gram analysis of a sentence?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of emotions in the analysis.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "The number of words in each n-gram.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "The number of characters in each n-gram.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "The number of different languages in the sentence.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w05-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "A sentiment analysis study analyses a text passage for valence and arousal values. On a scale of -1 to 1, the valence and arousal score is 0.75 and 0.85. What do these values suggest about the emotional characteristics of the text?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Negative sentiment, low emotional intensity",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Positive sentiment, High emotional intensity",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Negative sentiment, high emotional intensity",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Positive sentiment, low emotional intensity",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w05-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "A social media analyst is studying the engagement characteristics (likes, comments, and shares) of three different posts on a platform. The engagement counts for each post over a week are as follows:\n\nPost 1: 120 likes, 30 comments, 15 shares\nPost 2: 80 likes, 45 comments, 20 shares\nPost 3: 100 likes, 25 comments, 10 shares\n\nCalculate the mean engagement (average likes, comments, and shares) for each post and then find the standard deviation of engagement for the entire set of posts. Based on the standard deviation, which post shows the highest variability in engagement characteristics?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Post 1",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Post 2",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Post 3",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All posts show similar variability.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w05-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "What kind of post and sentiment is depicted in the below example?\n“Absolutely disgusted by the state of our local park! It's been months since we reported the broken playground equipment, and nothing has been done. Our kids deserve better!”",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Citizen-initiated and positive",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Public authority-initiated and negative",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Citizen-initiated and negative",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Public authority-initiated and positive",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "week": 7,
+  "source_pdf": "assets/7.pdf",
+  "questions": [
+    {
+      "id": "w07-q001",
+      "number": 1,
+      "type": "single",
+      "question": {
+        "text": "Consider the following statement: \"Hello everyone!!!, Are you enjoying psosm course --- and learning new\nskills.\" Choose the correct code to convert it to an un-punctuated string.",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "punctuations = '''!()-[]{};:'\"\\,<>/?@#$%^&*_~''' no_punct = \"\" for char in my_str: if char not in punctuations: no_punct = no_punct + char",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "punctuations = '''!()[]{};:'\"\\,<>./?@#$%^&*_~''' no_punct = \"\" for char in my_str: if char not in punctuations: no_punct = char",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "punctuations = '''!()-[]{};:'\"\\,<>./?@#$%^&*_~''' no_punct = \"\" for char in my_str: if char not in punctuations: no_punct = no_punct + char",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of these",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 1
+      }
+    },
+    {
+      "id": "w07-q002",
+      "number": 2,
+      "type": "single",
+      "question": {
+        "text": "Consider the following code:\nfrom collections import Counter\nx = [2, 1, 3, 4, 5, 2]\ntoken = ['social', 'media', 'nptel', 'nltk', 'python', 'tutorial']\npairs = Counter(dict(zip(token, x))).most_common(2)\nWhich of the following is the correct option?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "This code is used to retrieve an ascending sorted list having two tuples.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "This code is used to retrieve a descending sorted list having two tuples.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "This code retrieves two tuples in a sorted or unsorted manner.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "This code returns a logical error.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w07-q003",
+      "number": 3,
+      "type": "single",
+      "question": {
+        "text": "Which of the following are not stopwords in the following list?\nstopwords = [\"i\", \"me\", \"my\", ... \"what\", \"which\", ... \"did\", \"doing\", \"apple\", \"a\", \"an\",\n\"the\", \"and\", \"but\", \"if\", \"or\", \"because\", \"as\", \"until\", \"while\", ... \"under\", \"again\",\n\"further\", \"then\", ... \"should\", \"now\"]\n(Full list as given in the question.)",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "All of the above are stopwords.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Further, again, apple",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "While, apple",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "apple",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 2
+      }
+    },
+    {
+      "id": "w07-q004",
+      "number": 4,
+      "type": "single",
+      "question": {
+        "text": "Which elements in the below sample mail make it potentially a phishing email, as discussed in the\nlecture?",
+        "images": [
+          "assets/figures/week07/q004-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Urgency in subject",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Regrettable information in the body",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Potential phishing link along with body",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 3
+      }
+    },
+    {
+      "id": "w07-q005",
+      "number": 5,
+      "type": "single",
+      "question": {
+        "text": "Which of the following is the correct statement as discussed in the lecture?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Younger participants were more vulnerable to phishing attacks.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Older participants were more vulnerable to phishing attacks.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Younger and older participants were equally vulnerable to phishing attacks.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "No one is vulnerable to phishing attacks.",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w07-q006",
+      "number": 6,
+      "type": "single",
+      "question": {
+        "text": "In a scientific experiment, which group refers to manipulating the independent variable?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Observational group",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Comparison group",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Control group",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Experimental group",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 4
+      }
+    },
+    {
+      "id": "w07-q007",
+      "number": 7,
+      "type": "single",
+      "question": {
+        "text": "Which of the following is/are the advantages of having privacy policies?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "To help users make informed decisions with the information that is presented to them",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "To help individuals avoid regrettable online disclosures",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Both a and b are correct",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "None of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w07-q008",
+      "number": 8,
+      "type": "single",
+      "question": {
+        "text": "Which of the following nudges is depicted in the figure below?",
+        "images": [
+          "assets/figures/week07/q008-fig1.png"
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Timer nudge",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Picture nudge",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Sentiment nudge",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "page": 5
+      }
+    },
+    {
+      "id": "w07-q009",
+      "number": 9,
+      "type": "single",
+      "question": {
+        "text": "As discussed in the lecture, which of the following is/are not a social media nudge?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Timer Nudge",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Picture Nudge",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Sentiment Nudge",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "Voice Nudge",
+          "image": null
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "page": 6
+      }
+    },
+    {
+      "id": "w07-q010",
+      "number": 10,
+      "type": "single",
+      "question": {
+        "text": "Which of the following has the property of having high indegree and high outdegree on online social\nmedia?",
+        "images": []
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Top Link farmers",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "Random social network users",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "Top Spammers",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "All of the above",
+          "image": null
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "page": 6
+      }
+    }
+  ]
+}
