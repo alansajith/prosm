@@ -46,6 +46,49 @@ const Quiz = {
     return this.session.questions[this.session.currentIndex];
   },
 
+  renderQuestionText(container, text) {
+    container.innerHTML = '';
+    if (!text) return;
+
+    // Match URLs starting with http://, https://, or www.
+    const urlRegex = /(https?:\/\/[^\s<>'\"()]+|www\.[^\s<>'\"()]+)/g;
+    let lastIndex = 0;
+    let match;
+
+    while ((match = urlRegex.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        container.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+
+      let url = match[0];
+      let trailing = '';
+      while (url.length > 0 && /[.,;:!?)\]}>\"']$/.test(url)) {
+        trailing = url.slice(-1) + trailing;
+        url = url.slice(0, -1);
+      }
+
+      if (url) {
+        const a = document.createElement('a');
+        a.href = url.startsWith('http') ? url : 'https://' + url;
+        a.textContent = url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.className = 'quiz-question-link';
+        container.appendChild(a);
+      }
+
+      if (trailing) {
+        container.appendChild(document.createTextNode(trailing));
+      }
+
+      lastIndex = match.index + match[0].length;
+    }
+
+    if (lastIndex < text.length) {
+      container.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+  },
+
   renderCurrentQuestion() {
     if (!this.session) return;
 
@@ -70,10 +113,10 @@ const Quiz = {
 
     const weekNum = q.id && q.id.startsWith('w') ? parseInt(q.id.slice(1, 3), 10) : (this.session.weekId || 1);
 
-    // Render Question Text
+    // Render Question Text (with active clickable links)
     const qTextEl = document.getElementById('quiz-question-text');
     if (qTextEl) {
-      qTextEl.textContent = q.question.text;
+      this.renderQuestionText(qTextEl, q.question.text);
     }
 
     // Render Question Images
@@ -537,6 +580,11 @@ const Quiz = {
   // Keyboard shortcut listener
   handleKeydown(e) {
     if (!this.session || document.getElementById('quiz-screen')?.classList.contains('hidden')) {
+      return;
+    }
+
+    // Do not hijack keyboard events if user is focused on an interactive link
+    if (document.activeElement && document.activeElement.tagName === 'A') {
       return;
     }
 
